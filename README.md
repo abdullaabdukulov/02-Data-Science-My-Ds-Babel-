@@ -1,35 +1,6 @@
-# 02 Data Science My Ds Babel
+# Welcome to My Ds Babel
+<br>
 
-<div class="row">
-<div class="col tab-content">
-<div class="tab-pane active show" id="subject" role="tabpanel">
-<div class="row">
-<div class="col-md-12 col-xl-12">
-<div class="markdown-body">
-<p class="text-muted m-b-15">
-</p><h1>My Ds Babel</h1>
-<p>Remember to git add &amp;&amp; git commit &amp;&amp; git push each exercise!</p>
-<p>We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file</p>
-<p>For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under <code>submit directory</code> and specific file names for each exercise are also provided at the beginning of each exercise under <code>submit file(s)</code>.</p>
-<hr>
-<table>
-<thead>
-<tr>
-<th>My Ds Babel</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Submit directory</td>
-<td>.</td>
-</tr>
-<tr>
-<td>Submit files</td>
-<td>my_ds_babel.py - list_volcano.db - list_fault_lines.csv</td>
-</tr>
-</tbody>
-</table>
 <h3>Description</h3>
 <p>Data is the heart of an information system. Converting data from a <code>format</code> to another or <code>migrating</code> them to another <code>database</code> is a critical skill.</p>
 <p>It would be great if every information system could speak the same language.</p>
@@ -127,12 +98,28 @@ Google: create sqlite table
 Google: SQL Format INSERT</p>
 
 <p></p>
-</div>
 
-</div>
-</div>
-</div>
-<div class="tab-pane" id="resources" role="tabpanel">
-</div>
-</div>
-</div>
+## Instalation
+#### You have to install all libraries that shown in **`requirements.txt`** , otherwise project might working `wrogly` or `not work`
+
+## Usage
+
+After cloning and installing required libraries you have to write peace of code below at the end of `my_ds_babel.py` file:
+
+```
+  # If you want to convert your SQLite database to csv file write code below
+  result = sql_to_scv('database_name.db', 'table_name')
+  print(result)
+```
+***
+
+```
+  # If you want to convert csv file to SQLite database write the code below
+  csv_content = open("csv_file_name.csv")
+  csv_to_sql(csv_context, 'database_name.db', 'table_name')
+```
+
+After put this command in your terminal
+```bash
+  python my_ds_babel.py
+```
