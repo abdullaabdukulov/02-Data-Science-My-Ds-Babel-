@@ -17,10 +17,10 @@ def csv_to_sql(csv_content, database, table_name):
     df.to_sql(table_name, conn, if_exists='replace', index=False)
     conn.close()
 
-# SQL to CSV
-csv_data = sql_to_csv('all_fault_line.db', 'fault_lines')
-print(csv_data)  # This will display the CSV content
 
-# CSV to SQL
+csv_data = sql_to_csv('all_fault_line.db', 'fault_lines')
+print(csv_data)  
+
+
 csv_content = open("fault_lines.csv").read()
 csv_to_sql(csv_content, 'list_volcanos.db', 'volcanos')
