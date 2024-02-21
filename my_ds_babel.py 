@@ -1,0 +1,16 @@
+import pandas as pd
+import sqlite3
+
+def sql_to_csv(database, table_name):
+    connect = sqlite3.connect(database)
+    df = pd.read_sql(f'SELECT * FROM {table_name}', con=connect)
+    return df.to_csv("list_fault_lines.csv", index=False)
+
+sql_to_csv('all_fault_line.db', 'fault_lines')
+
+def csv_to_sql(csv_file, database, table_name):
+    df = pd.read_csv(csv_file)
+    connect = sqlite3.connect(database)
+    return df.to_sql(table_name, con=connect, if_exists='replace', index=False)
+
+csv_to_sql("list_volcano.csv", 'list_volcano.db', 'volcano')
