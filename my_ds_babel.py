@@ -1,10 +1,8 @@
 import sqlite3
-import csv
 import pandas as pd 
 
 def sql_to_csv(database, table_name):
   connection = sqlite3.connect(database)
-  curs = connection.cursor()
   select = f"SELECT * FROM {table_name};"
   request = pd.read_sql_query(select, connection)
   request.to_csv("list_fault_lines.csv", index = False)
@@ -13,17 +11,8 @@ def sql_to_csv(database, table_name):
   return all_results[:-1]
 
 
-def csv_to_sql(csv_content, database, table_name):
-    for_description = []
-    csv_read = pd.read_csv(csv_content)
-    for_iloc = csv_read.iloc[:].values
-    connected = sqlite3.connect(database)
-    curs = connected.cursor()
-    curs.execute(f"CREATE TABLE {table_name} ('Volcano Name', 'Country', 'Type', 'Latitude (dd)', 'Longitude (dd)', 'Elevation (m)')")
-    curs.executemany("INSERT INTO volcanos VALUES (?, ?, ?, ?, ?, ?)", for_iloc)
-    connected.commit()
-
-    curs.execute(f"SELECT * FROM {table_name}")
-    for i in curs.description:
-        for_description.append(i)
-    return for_description
+def csv_to_sql(csv_context, database, table_name):
+    connection = sql.connect(database)
+    dataframe = pd.read_csv(csv_context)
+    dataframe.to_sql(name=table_name, con=connection, index=False)
+    connection.close()
