@@ -12,9 +12,9 @@ This function converts data from a specified SQL database table into a CSV file.
 To install this project, simply clone the repository from GitHub or download the source files. Then 
 ```
 pip install pandas
-pip install numpy
+pip install sqlite3
 ```
  No additional installation steps are required.
 ## Usage
-How does it work?
-python your_file_name.py
+python my_ds_babel.py
+Additional information you can find in code 
