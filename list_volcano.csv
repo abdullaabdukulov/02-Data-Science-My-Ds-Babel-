@@ -29,7 +29,7 @@ Alban Hills,Italy,Caldera,41.73,12.70,949
 Alcedo,Galápagos Islands,Shield,-0.43,-91.12,1130
 Ale Bagu,Ethiopia,Stratovolcano,13.52,40.63,1031
 Alid,Eritrea,Stratovolcano,14.88,39.92,904
-Altiplano-Puna Volcanic Complex,Multiple Countries,-22.44,-67.96,4600
+Altiplano-Puna Volcanic Complex,Multiple Countries,Complex Volcano,-22.44,-67.96,4600
 Ambrym,Vanuatu,Shield,-16.25,168.12,1334
 Anatahan,Mariana Islands,Stratovolcano,16.35,145.67,790
 Aneityum,Vanuatu,Stratovolcano,-20.20,169.78,852
@@ -85,7 +85,7 @@ Chimborazo,Ecuador,Stratovolcano,-1.46,-78.82,6310
 Cleveland,USA,Stratovolcano,52.83,-169.95,1730
 Coatepeque,El Salvador,Caldera,13.86,-89.54,746
 Colima,Mexico,Stratovolcano,19.51,103.62,4100
-Columbia River Flood Basalts,USA,Flood Basalt,
+Columbia River Flood Basalts,USA,Flood Basalt,45.99,-119.01,300
 Concepción,Nicaragua,Stratovolcano,11.50,85.60,1610
 Copahue,Argentina,Stratovolcano,-37.85,-71.17,2965
 Cosigüina,Nicaragua,Shield,12.98,-87.56,847
@@ -95,7 +95,7 @@ Craters of the Moon,USA,Volcanic Field,43.42,-113.50,2005
 Daisetsu,Japan,Stratovolcano,43.70,142.90,2290
 Dakataua,Papua New Guinea,Caldera,-5.00,150.10,400
 Damavand,Iran,Stratovolcano,35.95,52.11,5670
-Deccan Traps,India,Flood Basalt,
+Deccan Traps,India,Flood Basalt,22.1,73.3,3500
 Dempo,Indonesia,Stratovolcano,-4.00,103.10,3173
 Devils Garden,USA,Volcanic Field,43.50,-120.90,1525
 Devils Tower,USA,Plug,44.60,-104.70,1558
@@ -131,7 +131,7 @@ Gamchen,Russia,Stratovolcano,54.97,160.68,2576
 Gamkonora,Indonesia,Stratovolcano,1.38,127.53,1635
 Gareloi,USA,Stratovolcano,51.80,178.80,1573
 Gaua,Vanuatu,Stratovolcano,-14.27,167.50,797
-Gede,Indonesia,-6.77,106.94,2958
+Gede,Indonesia,Stratovolcano,-6.77,106.94,2958
 Glacier Peak,USA,Stratovolcano,48.11,-121.11,3213
 Gorely,Russia,Caldera,52.56,158.03,1829
 Graciosa,Azores (Portugal),Stratovolcano,39.02,-27.97,402
@@ -139,10 +139,10 @@ Gran Canaria,Canary Islands (Spain),Fissure vents,28.00,15.58,1950
 Great Sitkin,USA,Stratovolcano,52.07,-176.13,1740
 Griggs,USA,Stratovolcano,58.35,-155.09,2317
 Grímsvötn,Iceland,Caldera,64.42,-17.33,1725
-Guagua Pichincha,Ecuador,-0.17,-78.60,4784
+Guagua Pichincha,Ecuador,Stratovolcano,-0.17,-78.60,4784
 Guallatiri,Chile,Stratovolcano,-18.42,-69.09,6071
 Guguan,USA,Stratovolcano,17.31,145.84,287
-Hakone,Japan,35.23,139.02,1439
+Hakone,Japan,Complex Volcano,35.23,139.02,1439
 Heard,Australia,Stratovolcano,-53.10,73.50,2745
 Hibok-hibok,Philippines,Stratovolcano,9.20,124.70,1332
 Hierro,Spain,Shield,27.73,-18.03,1500
@@ -240,10 +240,7 @@ Mauna Loa,United States,Shield,19.48,-155.61,4170
 Mayon,Philippines,Stratovolcano,13.26,123.69,2462
 McDonald Islands,Australia,Complex Volcano,-53.03,72.60,230
 McLoughlin,United States,Stratovolcano,42.45,-122.32,2894
-Mega Basalt Field,
-Ethiopia
-Kenya
-Pyroclastic Cone,37.42,4.08,1067
+Mega Basalt Field,Kenya,Pyroclastic Cone,37.42,4.08,1067
 Menan Buttes,United States,Tuff Ring,43.70,-111.96,1713
 Menengai,Kenya,Shield,-0.20,36.07,2278
 Merapi,Indonesia,Stratovolcano,-7.54,110.44,2911
@@ -265,7 +262,7 @@ Moti,Indonesia,Stratovolcano,0.45,127.40,950
 Muria,Indonesia,Stratovolcano,-6.62,110.88,1625
 Nantai,Japan,Stratovolcano,36.76,139.48,2486
 Nasu,Japan,Stratovolcano,37.12,139.97,1915
-Navajo Volcanic Field,United States,Volcanic Field,2740
+Navajo Volcanic Field,United States,Volcanic Field,35.1,110.0,1770
 Negro - Cerro,Nicaragua,Cinder Cone,12.51,-86.70,728
 Nemo Peak,Russia,Caldera,49.57,154.81,1018
 Nevis Peak,St. Kitts and Nevis,Stratovolcano,17.15,-62.58,985
@@ -278,7 +275,7 @@ Nisyros,Greece,Stratovolcano,36.59,27.16,698
 Nyambeni Hills,Kenya,Shield,0.23,37.87,750
 Nyamuragira,Democratic Republic of Congo,Shield,-1.41,29.20,3058
 Nyiragongo,Democratic Republic of Congo,Stratovolcano,-1.52,29.25,3470
-Oahu,United States,Shield,1220
+Oahu,United States,Shield,21.26,157.80,1220
 Ojos del Salado,Chile/Argentina,Stratovolcano,-27.12,-68.55,6887
 Okataina,New Zealand,Dome,-38.12,176.50,1111
 Okmok,United States,Shield,53.43,-168.13,1073
@@ -357,7 +354,7 @@ Soputan,Indonesia,Stratovolcano,1.11,124.73,1784
 Soufriere Guadeloupe,France,Stratovolcano,16.05,-61.67,1467
 Soufrière Hills,United Kingdom,Stratovolcano,16.72,-62.18,915
 Soufrière St. Vincent,St. Vincent,Stratovolcano,13.33,-61.18,1220
-South Island,Kenya,2.63,36.60,800
+South Island,Kenya,Stratovolcano,2.63,36.60,800
 SP Mountain,United States,Cinder Cone,35.60,-111.60,2141
 Spurr,United States,Stratovolcano,61.30,-152.25,3374
 Srednii,Russia,Submarine,47.60,152.92,36
@@ -387,7 +384,7 @@ Thule Islands,United Kingdom,Stratovolcano,-59.45,-27.37,1075
 Tiatia,Russia,Stratovolcano,44.35,146.26,1819
 Toba,Indonesia,Caldera,2.58,98.83,2157
 Todoko-Ranu,Indonesia,Caldera,1.25,127.47,979
-Tokachi,Japan,43.42,142.69,2077
+Tokachi,Japan,Volcanic Field,43.42,142.69,2077
 Tolbachik,Russia,Stratovolcano,55.83,160.33,3682
 Tolimán,Guatemala,Stratovolcano,14.61,-91.19,3158
 Towada,Japan,Caldera,40.47,140.92,1159
@@ -404,7 +401,7 @@ Uinkaret Volcanic Field,United States,Volcanic Field,36.38,-113.13,1555
 Ulawun,Papua New Guinea,Stratovolcano,-5.05,151.33,2334
 Umboi,Papua New Guinea,Complex Volcano,-5.59,147.88,1548
 Undara,Australia,Shield,-18.25,144.75,1020
-Ungaran and Telomoyo,Indonesia,-7.18,110.33,2050
+Ungaran and Telomoyo,Indonesia,Complex Volcano,-7.18,110.33,2050
 Unzen,Japan,Complex Volcano,32.76,130.29,1500
 Urataman,Russia,Somma Volcano,47.12,152.25,678
 Ushishur,Russia,Caldera,47.52,152.80,401
@@ -417,7 +414,7 @@ Villarrica,Chile,Stratovolcano,-39.42,-71.93,2847
 Vilyuchik,Russia,Stratovolcano,52.70,158.28,2173
 Visoke,Congo/Rwanda,Stratovolcano,-1.47,29.49,3711
 Vsevidof and Recheschnoi Volcanoes,United States,Stratovolcano,53.13,-168.69,2149
-Vulcano,Italy,38.40,14.96,500
+Vulcano,Italy,Stratovolcano,38.40,14.96,500
 Washington,United States,Shield,44.30,-121.80,2376
 Wau-en-Namus,Libya,Caldera,25.05,17.55,547
 Westdahl,United States,Stratovolcano,54.52,-164.65,1654
@@ -430,6 +427,6 @@ Yantarni,United States,Stratovolcano,57.02,-157.19,1345
 Yasur,Vanuatu,Stratovolcano,-19.53,169.44,361
 Yellowstone,United States,Caldera,44.43,-110.67,2805
 Zavaritzki Caldera,Russia,Caldera,46.93,151.95,624
-Zheltovsky,Russia,51.57,157.32,1953
-Zhupanovsky,Russia,53.59,159.15,2958
+Zheltovsky,Russia,Stratovolcano,51.57,157.32,1953
+Zhupanovsky,Russia,Stratovolcano,53.59,159.15,2958
 Zimina,Russia,Stratovolcano,55.86,160.60,3081
